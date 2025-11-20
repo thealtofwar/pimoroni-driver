@@ -1,0 +1,10 @@
+[package]
+name = "pimoroni_driver"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+embassy-time = "*"
+embedded-hal-async = "*"
+embassy-nrf = {version = "*", features = ["nrf52840"]}
+embedded-hal = "*"
